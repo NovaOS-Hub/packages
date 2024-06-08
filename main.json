@@ -1,0 +1,12 @@
+{
+  Name:        "NovaOS Main Repository",
+  Description: "The Official NovaOS Repository",
+  Owner:       "NovaOS Team (github/NovaOS-Hub)",
+  Packages:{
+    novaweb:{
+      "Name":        "NovaWeb",
+      "Description": "NovaWeb, the web-browser for NovaNet & Bussin Web",
+      "Appml":       "http://pkgs.os.novafurry.win/main/web.js"
+    }
+  }
+}
