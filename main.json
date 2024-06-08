@@ -1,12 +1,19 @@
 {
-  Name:        "NovaOS Main Repository",
-  Description: "The Official NovaOS Repository",
-  Owner:       "NovaOS Team (github/NovaOS-Hub)",
-  Packages:{
-    novaweb:{
+  "Name":        "NovaOS Main Repository",
+  "Description": "The Official NovaOS Repository",
+  "Owner":       "NovaOS Team (github/NovaOS-Hub)",
+  "Packages":{
+    "nw":{
       "Name":        "NovaWeb",
       "Description": "NovaWeb, the web-browser for NovaNet & Bussin Web",
       "Appml":       "http://pkgs.os.novafurry.win/main/web.js"
+      "Proxyto":     "None"
+    },
+    "novaweb":{
+      "Name":        "Proxy package for Novaweb (nw)",
+      "Description": "Proxy package for Novaweb (nw)",
+      "Appml":       "None",
+      "Proxyto":     "nw"
     }
   }
 }
